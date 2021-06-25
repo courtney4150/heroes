@@ -1,0 +1,27 @@
+h2 {
+    color: #0a0a0a;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+  }
+  
+  .clear {
+    color: #333;
+    background-color: #eee;
+    margin-bottom: 12px;
+    /* padding: 1rem; */
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  .clear:hover {
+    color: white;
+    background-color: #42545C;
+  }
+
+  .clear:focus {
+    background-color: rgb(161, 161, 161);
+  }
+
+  messages-output {
+    margin-bottom: 10px;
+  }

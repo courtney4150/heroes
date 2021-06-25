@@ -1,0 +1,30 @@
+/* DashboardComponent's private CSS styles */
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 70px;
+  }
+  
+.heroes-menu {
+    padding: 0;
+    margin: auto;
+    max-width: 500px;
+  
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .top-heroes {
+    color: #333;
+    background-color: #eee;
+  }
+
+  .top-heroes:focus {
+    background-color: rgb(161, 161, 161);
+  }
