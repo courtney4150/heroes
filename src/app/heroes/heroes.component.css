@@ -3,7 +3,12 @@
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  display: inline-block;
+  /* display: inline-block; */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
 .heroes li {
   position: relative;
