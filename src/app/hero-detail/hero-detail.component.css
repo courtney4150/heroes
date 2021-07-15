@@ -34,3 +34,9 @@ button:disabled {
 .go-back {
   margin-right: 10px;
 }
+
+.photos {
+  margin-top: 70px;
+  max-width: 400px;
+  border-radius: 4px;
+}
