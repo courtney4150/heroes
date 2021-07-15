@@ -2,12 +2,8 @@
 <ul class="heroes">
     <li *ngFor="let hero of heroes">
         <div>
-            <img src="https://img.icons8.com/carbon-copy/2x/image.png"/>
+            <img class="photos" src={{hero.photo}}/>
         </div>
-
-        <!-- trying to figure out how to use {{hero.photo}} to display different photos for each hero -->
-
-        <!-- <img src="{{hero.photo}}"/> -->
         
         <button mat-raised-button color="accent" routerLink="/detail/{{hero.id}}" class="heroButton">
             <span class="badge">{{hero.id}}</span> {{hero.name}}
